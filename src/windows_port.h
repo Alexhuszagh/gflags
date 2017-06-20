@@ -52,7 +52,7 @@
 #  define WIN32_LEAN_AND_MEAN
 #endif
 #include <windows.h>
-#include <io.h>          /* for mkdir */
+#include <direct.h>          /* for mkdir */
 #include <stdlib.h>          /* for _putenv, getenv */
 #include <stdio.h>           /* need this to override stdio's snprintf, also defines _unlink used by unit tests */
 #include <stdarg.h>          /* util.h uses va_copy */
